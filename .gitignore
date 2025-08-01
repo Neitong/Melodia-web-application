@@ -37,12 +37,26 @@ client/dist/
 client/build/
 client/.vite
 
+# Spotify Admin Frontend
+spotify-admin/node_modules/
+spotify-admin/.env
+spotify-admin/.env.local
+spotify-admin/.env.development.local
+spotify-admin/.env.test.local
+spotify-admin/.env.production.local
+spotify-admin/dist/
+spotify-admin/build/
+spotify-admin/.vite
+
 # Vite cache
 client/.vite-cache/
 client/.turbo/
+spotify-admin/.vite-cache/
+spotify-admin/.turbo/
 
 # React testing coverage
 client/coverage/
+spotify-admin/coverage/
 
 # =================================
 # OS / IDE / Editor-specific files
