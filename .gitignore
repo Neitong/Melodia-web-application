@@ -1,0 +1,73 @@
+/node_modules
+
+# ==============================
+#  Node.js / Express (Backend)
+# ==============================
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+logs/
+*.log
+
+# Sequelize and DB files
+*.sqlite
+*.sqlite3
+*.db
+migrations/*.js~
+seeders/*.js~
+
+# ==================
+#  React / Vite (Frontend)
+# ==================
+client/node_modules/
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/dist/
+client/build/
+client/.vite
+
+# Vite cache
+client/.vite-cache/
+client/.turbo/
+
+# React testing coverage
+client/coverage/
+
+# =================================
+# OS / IDE / Editor-specific files
+# =================================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains (e.g., WebStorm)
+.idea/
+
+# npm package lock
+package-lock.json
+client/package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.client-config.json
+
+# =================================
+# Logs & Temp
+# =================================
+*.log
+*.tmp
+*.swp
+.cache/
